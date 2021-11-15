@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #1DA1F2;
+    font-size: 3em;
+    
+}
+
+body {
+    background-color: #f6f9f8;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='96' viewBox='0 0 60 96'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23fdb94a' fill-opacity='0.52'%3E%3Cpath d='M36 10a6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-12 0 6 6 0 0 0-6-6 6 6 0 0 1-6-6V10a6 6 0 1 1 12 0 6 6 0 0 0 12 0zm24 78a6 6 0 0 1-6-6 6 6 0 0 0-6-6 6 6 0 0 1-6-6V58a6 6 0 1 1 12 0 6 6 0 0 0 6 6v24zM0 88V64a6 6 0 0 0 6-6 6 6 0 0 1 12 0v12a6 6 0 0 1-6 6 6 6 0 0 0-6 6 6 6 0 0 1-6 6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-align: center; 
+}   
+
+.cat-image {
+    height: 550px;
+    width: 700px;
+    max-height: auto;
+    border-radius: 10px;
+    background-color: rgba(225, 225, 225, 0.5);
+    background-size: 100% 100%;
+    background-image: url('Images/cat.gif'); 
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto
+}
+
+
+.cat-fact {
+    height: auto;
+    width: 400px;
+    max-width: auto;
+    padding: 20px 30px; 
+    border-radius: 10px;
+    background-color: rgba(252, 248, 248, 0.918);;
+    box-shadow: 0 2px 2px 2px rgb(56, 63, 66);
+    background-size: cover;
+    text-align: center;
+    font-weight: 500;
+    color: black;  
+    margin: 0 auto
+}
+
+.button-container {
+    margin-top:15px;
+    
+}
+
+
+button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: white;
+    background-color: #1DA1F2;
+    padding: 0.5rem 1.8rem;
+    box-shadow: 0 0.3rem rgba(121, 121, 121, 0.75);
+}
+
+button:hover {
+    filter: brightness(200%);
+}
+
+button:active {
+    transform: translate(0, 0.3rem);
+}
