@@ -26,7 +26,7 @@ body {
     border-radius: 10px;
     background-color: rgba(225, 225, 225, 0.5);
     background-size: 100% 100%;
-    background-image: url('Images/cat.gif'); 
+    background-image: url('images/cat.gif'); 
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
     margin: 0 auto
 }
